@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(45, 72, 206);
+      }
+      #container {
+        width: 30%;
+        background-color: aqua;
+        margin: 50px auto;
+        /* height: 200px; */
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        box-sizing: border-box;
+        border-radius: 10px;
+      }
+      #container input {
+        margin-bottom: 15px;
+        border: none;
+        border-bottom: 1px solid black;
+        background: none;
+      }
+      #container #submit {
+        background-color: red;
+        color: white;
+        width: 55%;
+        margin-bottom: 40px;
+        height: 30px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+      }
+      #container #submit:hover {
+        background-color: chocolate;
+      }
+      #container span {
+        margin-bottom: 25px;
+      }
+      a {
+        text-decoration: none;
+        cursor: pointer;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>LogIn</h1>
+      <input type="email" placeholder="email" />
+      <br />
+      <input type="password" placeholder="password" />
+      <br />
+      <input type="submit" id="submit" value="Login" />
+      <br />
+      <p>Forgot <a href="">Password</a>?</p>
+       
+      <p>Don't Have an account? <a href="">Sign Up</a></p>
+    </div>
+  </body>
+</html>
